@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -270,10 +272,16 @@
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
+								<string>089C165CFE840E0CC02AAC07</string>
+								<string>1DDD58140DA1D0A300B32029</string>
+								<string>1CC0EA4004350EF90044410B</string>
+								<string>1CC0EA4004350EF90041110B</string>
+								<string>1DDD58140DA1D0A300B32029</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>9</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -311,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>A371E1F112713FD9009FAA94</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>Converter.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -319,7 +327,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>A371E1F212713FD9009FAA94</string>
 										<key>PBXProjectModuleLabel</key>
-										<string></string>
+										<string>Converter.m</string>
+										<key>_historyCapacity</key>
+										<integer>0</integer>
+										<key>bookmark</key>
+										<string>A371E21512714750009FAA94</string>
+										<key>history</key>
+										<array>
+											<string>A371E21012714750009FAA94</string>
+											<string>A371E21112714750009FAA94</string>
+											<string>A371E21212714750009FAA94</string>
+											<string>A371E21312714750009FAA94</string>
+											<string>A371E21412714750009FAA94</string>
+										</array>
 									</dict>
 									<key>SplitCount</key>
 									<string>1</string>
@@ -332,23 +352,21 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1009, 0}}</string>
+								<string>{{0, 0}, {1009, 692}}</string>
 								<key>RubberWindowFrame</key>
 								<string>1920 136 1440 845 1920 81 1440 900 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>0pt</string>
+							<string>692pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>799pt</string>
+							<string>107pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
-									<key>BecomeActive</key>
-									<true/>
 									<key>ContentConfiguration</key>
 									<dict>
 										<key>PBXProjectModuleGUID</key>
@@ -359,7 +377,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1009, 772}}</string>
+										<string>{{10, 27}, {1009, 80}}</string>
 										<key>RubberWindowFrame</key>
 										<string>1920 136 1440 845 1920 81 1440 900 </string>
 									</dict>
@@ -637,10 +655,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>A371E1FD12713FD9009FAA94</string>
 		<string>A371E1FE12713FD9009FAA94</string>
 		<string>A371E1FF12713FD9009FAA94</string>
-		<string>/Volumes/User/jinjing/workspace/project/xcode/mac/CurrencyConverter/CurrencyConverter.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>1920 136 1440 845 1920 81 1440 900 </string>
