@@ -18,6 +18,6 @@ Reference:
 Alternative method (static shared library)
 ===========================================
 
-I could not get shared library work using XCode and GHC, so ignored.
+I could not get shared library to work with XCode, ignored.
 
 License: BSD.
