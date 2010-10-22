@@ -6,9 +6,9 @@ import Foreign.C.Types
 foreign import ccall "Cocoa.h NSApplicationMain" 
     c_NSApplicationMain :: CInt -> Ptr (Ptr CChar) -> IO CInt
     
-foreign export ccall convert :: CDouble -> CDouble -> CDouble
+foreign export ccall convert :: CFloat -> CFloat -> IO CFloat
 
-convert :: CDouble -> CDouble -> CDouble
-convert amount rate = amount * rate
+convert :: CFloat -> CFloat -> IO CFloat
+convert amount rate = return (amount * rate)
 
 main = c_NSApplicationMain 0 nullPtr

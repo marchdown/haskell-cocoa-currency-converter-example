@@ -1,9 +1,10 @@
 #import <Cocoa/Cocoa.h>
 
-double convert(double amount, double rate)
+float convert(float amount, float rate)
 {
     return -42.0;
 }
+
 
 int main(int argc, char *argv[])
 {

@@ -33,6 +33,7 @@
 		A332750E1271486A00976928 /* ConverterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterController.m; sourceTree = "<group>"; };
 		A332771F127176D800976928 /* HSOBJC_dummy_C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSOBJC_dummy_C.m; sourceTree = "<group>"; };
 		A3327751127178A600976928 /* Main.hs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Main.hs; sourceTree = "<group>"; };
+		A33277B7127180DD00976928 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
 		A371E20112714154009FAA94 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
 		A371E20212714154009FAA94 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +107,7 @@
 				A3327751127178A600976928 /* Main.hs */,
 				256AC3F00F4B6AF500CF3369 /* CurrencyConverter_Prefix.pch */,
 				A332771F127176D800976928 /* HSOBJC_dummy_C.m */,
+				A33277B7127180DD00976928 /* global.h */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";

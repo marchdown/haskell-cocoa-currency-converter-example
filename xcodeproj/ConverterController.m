@@ -8,6 +8,7 @@
 
 #import "ConverterController.h"
 #import "Converter.h"
+#import "global.h"
 
 @implementation ConverterController
 
@@ -27,7 +28,7 @@
     [rateField selectText:self];
     */
     
-    [amountField setFloatValue:convert_currency([dollarField floatValue], [rateField floatValue])];
+    [amountField setFloatValue:convert([dollarField floatValue], [rateField floatValue])];
 
     [rateField selectText:self];
 }
