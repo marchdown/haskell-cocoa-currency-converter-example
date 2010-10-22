@@ -5,11 +5,11 @@ Current implementation (GHC output binary)
 
 OK, this method works. Here's the workflow:
 
-* A normal xcode build is performed using `main` from `HSOBJC_dummy_C.m`.
+* A normal xcode build is performed with a `main` symbol from `HSOBJC_dummy_C.m`.
 * `HSOBJC_dummy_C.m` also defines symbol place holders for exported Haskell functions
 * A custom script that
     * compile `Main.hs` with object code from XCode environment
-    * replace the XCode binary with `GHC`'s output
+    * replace the XCode generated binary with `GHC`'s output
 
 Reference:
 

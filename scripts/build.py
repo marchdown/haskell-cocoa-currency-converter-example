@@ -44,6 +44,9 @@ args = " ".join(["-O", "--make", "-threaded",
                  '-o "./' + env('EXECUTABLE_NAME') + '"',
                  " ".join(filelist),
                  framework_args])
+                 
+print "ghc " + args
+                
 retcode = call("ghc " + args, shell=True)
 if retcode != 0:
     sys.exit(retcode)
