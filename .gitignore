@@ -1,5 +1,5 @@
 # xcode noise
-build/*
+xcodeproj/build/*
 *.pbxuser
 
 # old skool

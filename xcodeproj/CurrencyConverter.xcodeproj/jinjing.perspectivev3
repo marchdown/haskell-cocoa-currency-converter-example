@@ -281,12 +281,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
+									<integer>13</integer>
 									<integer>9</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {409, 786}}</string>
+							<string>{{0, 0}, {409, 940}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -296,14 +297,14 @@
 					<key>GeometryConfiguration</key>
 					<dict>
 						<key>Frame</key>
-						<string>{{0, 0}, {426, 804}}</string>
+						<string>{{0, 0}, {426, 958}}</string>
 						<key>GroupTreeTableConfiguration</key>
 						<array>
 							<string>MainColumn</string>
 							<real>409</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>1920 136 1440 845 1920 81 1440 900 </string>
+						<string>0 59 1920 999 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -331,14 +332,14 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A371E21512714750009FAA94</string>
+										<string>A3327505127147B300976928</string>
 										<key>history</key>
 										<array>
 											<string>A371E21012714750009FAA94</string>
 											<string>A371E21112714750009FAA94</string>
 											<string>A371E21212714750009FAA94</string>
 											<string>A371E21312714750009FAA94</string>
-											<string>A371E21412714750009FAA94</string>
+											<string>A371E21512714750009FAA94</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -352,18 +353,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1009, 692}}</string>
+								<string>{{0, 0}, {1489, 843}}</string>
 								<key>RubberWindowFrame</key>
-								<string>1920 136 1440 845 1920 81 1440 900 </string>
+								<string>0 59 1920 999 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>692pt</string>
+							<string>843pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>107pt</string>
+							<string>110pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -377,9 +378,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1009, 80}}</string>
+										<string>{{10, 27}, {1489, 83}}</string>
 										<key>RubberWindowFrame</key>
-										<string>1920 136 1440 845 1920 81 1440 900 </string>
+										<string>0 59 1920 999 0 0 1920 1058 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -442,7 +443,7 @@
 						</dict>
 					</array>
 					<key>Proportion</key>
-					<string>1009pt</string>
+					<string>1489pt</string>
 				</dict>
 			</array>
 			<key>Name</key>
@@ -461,11 +462,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>A371E1F312713FD9009FAA94</string>
+				<string>A3327506127147B300976928</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>A371E1F412713FD9009FAA94</string>
+				<string>A3327507127147B300976928</string>
 				<string>A371E1F112713FD9009FAA94</string>
-				<string>A371E1F512713FD9009FAA94</string>
+				<string>A3327508127147B300976928</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -655,11 +656,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>A371E1FE12713FD9009FAA94</string>
-		<string>A371E1FF12713FD9009FAA94</string>
+		<string>/Volumes/User/jinjing/workspace/project/xcode/mac/CurrencyConverter/xcodeproj/CurrencyConverter.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>1920 136 1440 845 1920 81 1440 900 </string>
+	<string>0 59 1920 999 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
