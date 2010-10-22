@@ -14,6 +14,10 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
 	// Insert code here to initialize your application 
+    
+    // test_int();
+    
+    // NSLog(@"launched: %i", test_int());
 }
 
 @end

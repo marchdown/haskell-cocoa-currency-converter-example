@@ -28,7 +28,7 @@
     */
     
     [amountField setFloatValue:convert_currency([dollarField floatValue], [rateField floatValue])];
-    
+
     [rateField selectText:self];
 }
 

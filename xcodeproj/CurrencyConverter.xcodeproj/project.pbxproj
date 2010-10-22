@@ -10,9 +10,10 @@
 		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
 		256AC3DA0F4B6AC300CF3369 /* CurrencyConverterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* CurrencyConverterAppDelegate.m */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
-		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A332750F1271486A00976928 /* ConverterController.m in Sources */ = {isa = PBXBuildFile; fileRef = A332750E1271486A00976928 /* ConverterController.m */; };
+		A3327720127176D800976928 /* HSOBJC_dummy_C.m in Sources */ = {isa = PBXBuildFile; fileRef = A332771F127176D800976928 /* HSOBJC_dummy_C.m */; };
+		A3327752127178A600976928 /* Main.hs in Resources */ = {isa = PBXBuildFile; fileRef = A3327751127178A600976928 /* Main.hs */; };
 		A371E20312714154009FAA94 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = A371E20212714154009FAA94 /* Converter.m */; };
 /* End PBXBuildFile section */
 
@@ -24,13 +25,14 @@
 		256AC3D80F4B6AC300CF3369 /* CurrencyConverterAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConverterAppDelegate.h; sourceTree = "<group>"; };
 		256AC3D90F4B6AC300CF3369 /* CurrencyConverterAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyConverterAppDelegate.m; sourceTree = "<group>"; };
 		256AC3F00F4B6AF500CF3369 /* CurrencyConverter_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyConverter_Prefix.pch; sourceTree = "<group>"; };
-		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* CurrencyConverter-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CurrencyConverter-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A332750D1271486A00976928 /* ConverterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterController.h; sourceTree = "<group>"; };
 		A332750E1271486A00976928 /* ConverterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterController.m; sourceTree = "<group>"; };
+		A332771F127176D800976928 /* HSOBJC_dummy_C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSOBJC_dummy_C.m; sourceTree = "<group>"; };
+		A3327751127178A600976928 /* Main.hs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Main.hs; sourceTree = "<group>"; };
 		A371E20112714154009FAA94 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
 		A371E20212714154009FAA94 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,8 +103,9 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				A3327751127178A600976928 /* Main.hs */,
 				256AC3F00F4B6AF500CF3369 /* CurrencyConverter_Prefix.pch */,
-				29B97316FDCFA39411CA2CEA /* main.m */,
+				A332771F127176D800976928 /* HSOBJC_dummy_C.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -120,10 +123,18 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A33275461271588100976928 /* Static Libraries */,
 				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A33275461271588100976928 /* Static Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Static Libraries";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
 				8D11072E0486CEB800E47090 /* Frameworks */,
+				A332770C1271753A00976928 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -178,20 +190,37 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				A3327752127178A600976928 /* Main.hs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A332770C1271753A00976928 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /usr/bin/python;
+			shellScript = "#!/usr/bin/python\n# -*- coding: utf-8 -*-\nimport sys\nimport os\nimport shutil\nfrom subprocess import call\n\nprint \"init\"\n\nenv = os.environ.get\n\n# Adjust these settings for your project!\n# TODO: These settings can surely be extracted automatically from Xcode...\nframeworks = [\"Cocoa\"]\n\n# this object files will be replaced by Haskell\ndummy_objectfiles = [\"HSOBJC_dummy_C.o\"]  \n\nhssource = \"Main.hs\"\n\n\n\n\nprint \"Starting Haskell build phase...\"\n\n# STEP 1\nprint \"parsing filelist...\"\nfilelist_path = os.path.join(env('OBJECT_FILE_DIR_normal'), env('CURRENT_ARCH'),  \n                             env('EXECUTABLE_NAME') + \".LinkFileList\")\n\nwith open(filelist_path, 'r') as f:\n    stripped_lines = (x.strip() for x in f.readlines())\n    filelist = [('\"%s\"' % line) for line in stripped_lines \n                if os.path.basename(line) not in dummy_objectfiles]\n\t\t \n\n# STEP 2\nprint \"Building Haskell File(s)\"\n# TODO: Should be done with cabal? (But can cabal include *.o files??)\nframework_args = \" \".join(\"-framework \" + x for x in frameworks)\nobjects_path = os.path.join(env('OBJECT_FILE_DIR_normal'),\n                            env('CURRENT_ARCH'), \n                            \"*.o\")\nargs = \" \".join([\"-O\", \"--make\", \"-threaded\",\n                 hssource,\n                 '-o \"./' + env('EXECUTABLE_NAME') + '\"',\n                 \" \".join(filelist),\n                 framework_args])\nretcode = call(\"ghc \" + args, shell=True)\nif retcode != 0:\n    sys.exit(retcode)\n    \n\n# STEP 3\n# (somehow building the executable directly in the target path\n# seems not to overwrite the c-executable)\nprint \"moving executable...\"\nexec_path = os.path.join(env('BUILT_PRODUCTS_DIR'),\n                         env('EXECUTABLE_PATH'))\nshutil.move(env('EXECUTABLE_NAME'), \n            exec_path)\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D11072C0486CEB800E47090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D11072D0486CEB800E47090 /* main.m in Sources */,
 				256AC3DA0F4B6AC300CF3369 /* CurrencyConverterAppDelegate.m in Sources */,
 				A371E20312714154009FAA94 /* Converter.m in Sources */,
 				A332750F1271486A00976928 /* ConverterController.m in Sources */,
+				A3327720127176D800976928 /* HSOBJC_dummy_C.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,6 +259,13 @@
 				GCC_PREFIX_HEADER = CurrencyConverter_Prefix.pch;
 				INFOPLIST_FILE = "CurrencyConverter-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../haskell\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924/array-0.3.0.2\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924/base-4.3.0.0\"",
+				);
 				PRODUCT_NAME = CurrencyConverter;
 			};
 			name = Debug;
@@ -244,6 +280,13 @@
 				GCC_PREFIX_HEADER = CurrencyConverter_Prefix.pch;
 				INFOPLIST_FILE = "CurrencyConverter-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../haskell\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924/array-0.3.0.2\"",
+					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924/base-4.3.0.0\"",
+				);
 				PRODUCT_NAME = CurrencyConverter;
 			};
 			name = Release;
@@ -251,30 +294,34 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-7.0.0.20100924";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_GC = supported;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-7.0.0.20100924/include";
 			};
 			name = Debug;
 		};
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				FRAMEWORK_SEARCH_PATHS = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-7.0.0.20100924";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_GC = supported;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = 4.2;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.6;
+				USER_HEADER_SEARCH_PATHS = "/Library/Frameworks/GHC.framework/Versions/Current/usr/lib/ghc-7.0.0.20100924/include";
 			};
 			name = Release;
 		};

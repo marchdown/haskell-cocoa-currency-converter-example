@@ -16,3 +16,5 @@ bin
 dist
 build
 *.a
+*_stub.c
+*_stub.h

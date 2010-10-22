@@ -7,8 +7,16 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "HsFFI.h"
+
+extern void __stginit_Convert ( void );
 
 int main(int argc, char *argv[])
 {
+    hs_init(&argc, &argv);
+    hs_add_root(__stginit_Convert);
+
     return NSApplicationMain(argc,  (const char **) argv);
+    
+    hs_exit();
 }
