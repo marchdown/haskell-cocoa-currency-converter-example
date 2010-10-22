@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -274,6 +272,10 @@
 								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>089C165CFE840E0CC02AAC07</string>
 								<string>1DDD58140DA1D0A300B32029</string>
+								<string>29B97323FDCFA39411CA2CEA</string>
+								<string>1058C7A0FEA54F0111CA2CBB</string>
+								<string>1058C7A2FEA54F0111CA2CBB</string>
+								<string>1C37FBAC04509CD000000102</string>
 								<string>1CC0EA4004350EF90044410B</string>
 								<string>1CC0EA4004350EF90041110B</string>
 								<string>1DDD58140DA1D0A300B32029</string>
@@ -281,8 +283,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>13</integer>
-									<integer>9</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -315,6 +316,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -332,14 +335,19 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A3327505127147B300976928</string>
+										<string>A332753C1271507600976928</string>
 										<key>history</key>
 										<array>
-											<string>A371E21012714750009FAA94</string>
-											<string>A371E21112714750009FAA94</string>
 											<string>A371E21212714750009FAA94</string>
-											<string>A371E21312714750009FAA94</string>
-											<string>A371E21512714750009FAA94</string>
+											<string>A33275321271507600976928</string>
+											<string>A33275331271507600976928</string>
+											<string>A33275341271507600976928</string>
+											<string>A33275361271507600976928</string>
+											<string>A33275371271507600976928</string>
+											<string>A33275381271507600976928</string>
+											<string>A33275391271507600976928</string>
+											<string>A332753A1271507600976928</string>
+											<string>A332753B1271507600976928</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -615,14 +623,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>A371E1F612713FD9009FAA94</string>
+				<string>A332753D1271507600976928</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>A371E1F712713FD9009FAA94</string>
-				<string>A371E1F812713FD9009FAA94</string>
-				<string>A371E1F912713FD9009FAA94</string>
-				<string>A371E1FA12713FD9009FAA94</string>
-				<string>A371E1FB12713FD9009FAA94</string>
+				<string>A332753E1271507600976928</string>
+				<string>A332753F1271507600976928</string>
+				<string>A33275401271507600976928</string>
+				<string>A33275411271507600976928</string>
+				<string>A33275421271507600976928</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -656,6 +664,9 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>A33275431271507600976928</string>
+		<string>A33275441271507600976928</string>
+		<string>A33275451271507600976928</string>
 		<string>/Volumes/User/jinjing/workspace/project/xcode/mac/CurrencyConverter/xcodeproj/CurrencyConverter.xcodeproj</string>
 	</array>
 	<key>WindowString</key>

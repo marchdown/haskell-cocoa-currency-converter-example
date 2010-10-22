@@ -13,6 +13,7 @@
 
 
 - (IBAction)convert:(id)sender {
+    /*
     float amount;
     converter = [[Converter alloc]init];
     
@@ -22,6 +23,11 @@
     amount = [converter convertCurrency];
     
     [amountField setFloatValue:amount];
+    
+    [rateField selectText:self];
+    */
+    
+    [amountField setFloatValue:convert_currency([dollarField floatValue], [rateField floatValue])];
     
     [rateField selectText:self];
 }

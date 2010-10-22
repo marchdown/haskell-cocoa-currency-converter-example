@@ -18,3 +18,8 @@
 }
 
 @end
+
+
+float convert_currency(float amount, float rate) {
+    return amount * rate;
+}

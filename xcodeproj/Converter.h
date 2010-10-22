@@ -18,3 +18,6 @@
 - (float) convertCurrency;
 
 @end
+
+
+float convert_currency(float amount, float rate);
