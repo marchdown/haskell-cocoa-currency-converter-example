@@ -8,7 +8,7 @@
 
 #import "ConverterController.h"
 #import "Converter.h"
-#import "global.h"
+#import "ffi.h"
 
 @implementation ConverterController
 

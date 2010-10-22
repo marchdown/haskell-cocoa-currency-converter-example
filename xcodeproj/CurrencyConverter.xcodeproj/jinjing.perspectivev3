@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -283,8 +281,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>28</integer>
-									<integer>27</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -316,12 +314,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>A371E1F112713FD9009FAA94</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>global.h</string>
+								<string>ConverterController.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,26 +329,26 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>A371E1F212713FD9009FAA94</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>global.h</string>
+										<string>ConverterController.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A33277E11271815900976928</string>
+										<string>A33277F5127181AA00976928</string>
 										<key>history</key>
 										<array>
 											<string>A33275341271507600976928</string>
 											<string>A332758912715DF700976928</string>
 											<string>A33275D41271625000976928</string>
 											<string>A3327743127177B200976928</string>
-											<string>A33277661271793F00976928</string>
 											<string>A332777A12717A3000976928</string>
-											<string>A332779712717FBC00976928</string>
 											<string>A33277B21271809000976928</string>
 											<string>A33277B31271809000976928</string>
 											<string>A33277BE127180FD00976928</string>
-											<string>A33277DC1271814600976928</string>
-											<string>A33277DD1271814600976928</string>
-											<string>A33277DE1271814600976928</string>
+											<string>A33277EA1271819D00976928</string>
+											<string>A33277EB1271819D00976928</string>
+											<string>A33277EC1271819D00976928</string>
+											<string>A33277ED1271819D00976928</string>
+											<string>A33277EE1271819D00976928</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -388,8 +388,6 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1009, 247}}</string>
-										<key>RubberWindowFrame</key>
-										<string>386 180 1440 845 0 0 1920 1058 </string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -444,6 +442,8 @@
 									<dict>
 										<key>Frame</key>
 										<string>{{10, 27}, {1009, 247}}</string>
+										<key>RubberWindowFrame</key>
+										<string>386 180 1440 845 0 0 1920 1058 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -665,7 +665,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>A33277E01271814600976928</string>
 		<string>A332776A1271793F00976928</string>
 		<string>A332776B1271793F00976928</string>
 		<string>/Volumes/User/jinjing/workspace/project/xcode/mac/CurrencyConverter/xcodeproj/CurrencyConverter.xcodeproj</string>
