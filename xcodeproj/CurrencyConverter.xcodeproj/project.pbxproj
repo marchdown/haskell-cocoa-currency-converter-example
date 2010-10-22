@@ -14,6 +14,14 @@
 		A332750F1271486A00976928 /* ConverterController.m in Sources */ = {isa = PBXBuildFile; fileRef = A332750E1271486A00976928 /* ConverterController.m */; };
 		A3327720127176D800976928 /* HSOBJC_dummy_C.m in Sources */ = {isa = PBXBuildFile; fileRef = A332771F127176D800976928 /* HSOBJC_dummy_C.m */; };
 		A3327752127178A600976928 /* Main.hs in Resources */ = {isa = PBXBuildFile; fileRef = A3327751127178A600976928 /* Main.hs */; };
+		A33277C61271812F00976928 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		A33277C71271812F00976928 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		A33277C81271812F00976928 /* Main.hs in Resources */ = {isa = PBXBuildFile; fileRef = A3327751127178A600976928 /* Main.hs */; };
+		A33277CA1271812F00976928 /* CurrencyConverterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* CurrencyConverterAppDelegate.m */; };
+		A33277CB1271812F00976928 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = A371E20212714154009FAA94 /* Converter.m */; };
+		A33277CC1271812F00976928 /* ConverterController.m in Sources */ = {isa = PBXBuildFile; fileRef = A332750E1271486A00976928 /* ConverterController.m */; };
+		A33277CD1271812F00976928 /* HSOBJC_dummy_C.m in Sources */ = {isa = PBXBuildFile; fileRef = A332771F127176D800976928 /* HSOBJC_dummy_C.m */; };
+		A33277CF1271812F00976928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A371E20312714154009FAA94 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = A371E20212714154009FAA94 /* Converter.m */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +42,8 @@
 		A332771F127176D800976928 /* HSOBJC_dummy_C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSOBJC_dummy_C.m; sourceTree = "<group>"; };
 		A3327751127178A600976928 /* Main.hs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Main.hs; sourceTree = "<group>"; };
 		A33277B7127180DD00976928 /* global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = global.h; sourceTree = "<group>"; };
+		A33277D41271812F00976928 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A33277D61271812F00976928 /* CurrencyConverter-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyConverter-Info copy.plist"; sourceTree = "<group>"; };
 		A371E20112714154009FAA94 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
 		A371E20212714154009FAA94 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +54,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33277CE1271812F00976928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33277CF1271812F00976928 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				8D1107320486CEB800E47090 /* CurrencyConverter.app */,
+				A33277D41271812F00976928 /* CurrencyConverter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,6 +137,7 @@
 				8D1107310486CEB800E47090 /* CurrencyConverter-Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				A33277D61271812F00976928 /* CurrencyConverter-Info copy.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -161,6 +181,24 @@
 			productReference = 8D1107320486CEB800E47090 /* CurrencyConverter.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A33277C41271812F00976928 /* CurrencyConverter Dummy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33277D11271812F00976928 /* Build configuration list for PBXNativeTarget "CurrencyConverter Dummy" */;
+			buildPhases = (
+				A33277C51271812F00976928 /* Resources */,
+				A33277C91271812F00976928 /* Sources */,
+				A33277CE1271812F00976928 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CurrencyConverter Dummy";
+			productInstallPath = "$(HOME)/Applications";
+			productName = CurrencyConverter;
+			productReference = A33277D41271812F00976928 /* CurrencyConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -181,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* CurrencyConverter */,
+				A33277C41271812F00976928 /* CurrencyConverter Dummy */,
 			);
 		};
 /* End PBXProject section */
@@ -193,6 +232,16 @@
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
 				A3327752127178A600976928 /* Main.hs in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A33277C51271812F00976928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33277C61271812F00976928 /* InfoPlist.strings in Resources */,
+				A33277C71271812F00976928 /* MainMenu.xib in Resources */,
+				A33277C81271812F00976928 /* Main.hs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,6 +275,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A33277C91271812F00976928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A33277CA1271812F00976928 /* CurrencyConverterAppDelegate.m in Sources */,
+				A33277CB1271812F00976928 /* Converter.m in Sources */,
+				A33277CC1271812F00976928 /* ConverterController.m in Sources */,
+				A33277CD1271812F00976928 /* HSOBJC_dummy_C.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
@@ -248,6 +308,51 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A33277D21271812F00976928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CurrencyConverter_Prefix.pch;
+				INFOPLIST_FILE = "CurrencyConverter-Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../haskell\\\"",
+					"\\\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924\\\"",
+					"\\\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924/array-0.3.0.2\\\"",
+					"\\\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924/base-4.3.0.0\\\"",
+				);
+				PRODUCT_NAME = CurrencyConverter;
+			};
+			name = Debug;
+		};
+		A33277D31271812F00976928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CurrencyConverter_Prefix.pch;
+				INFOPLIST_FILE = "CurrencyConverter-Info copy.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../haskell\\\"",
+					"\\\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924\\\"",
+					"\\\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924/array-0.3.0.2\\\"",
+					"\\\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924/base-4.3.0.0\\\"",
+				);
+				PRODUCT_NAME = CurrencyConverter;
+			};
+			name = Release;
+		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -330,6 +435,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A33277D11271812F00976928 /* Build configuration list for PBXNativeTarget "CurrencyConverter Dummy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A33277D21271812F00976928 /* Debug */,
+				A33277D31271812F00976928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "CurrencyConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
