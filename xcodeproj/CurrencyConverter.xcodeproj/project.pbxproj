@@ -13,15 +13,14 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		A332750F1271486A00976928 /* ConverterController.m in Sources */ = {isa = PBXBuildFile; fileRef = A332750E1271486A00976928 /* ConverterController.m */; };
 		A3327720127176D800976928 /* HSOBJC_dummy_C.m in Sources */ = {isa = PBXBuildFile; fileRef = A332771F127176D800976928 /* HSOBJC_dummy_C.m */; };
-		A3327752127178A600976928 /* Main.hs in Resources */ = {isa = PBXBuildFile; fileRef = A3327751127178A600976928 /* Main.hs */; };
 		A33277C61271812F00976928 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		A33277C71271812F00976928 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
-		A33277C81271812F00976928 /* Main.hs in Resources */ = {isa = PBXBuildFile; fileRef = A3327751127178A600976928 /* Main.hs */; };
 		A33277CA1271812F00976928 /* CurrencyConverterAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 256AC3D90F4B6AC300CF3369 /* CurrencyConverterAppDelegate.m */; };
 		A33277CB1271812F00976928 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = A371E20212714154009FAA94 /* Converter.m */; };
 		A33277CC1271812F00976928 /* ConverterController.m in Sources */ = {isa = PBXBuildFile; fileRef = A332750E1271486A00976928 /* ConverterController.m */; };
 		A33277CD1271812F00976928 /* HSOBJC_dummy_C.m in Sources */ = {isa = PBXBuildFile; fileRef = A332771F127176D800976928 /* HSOBJC_dummy_C.m */; };
 		A33277CF1271812F00976928 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		A33278481271A2A600976928 /* Main.hs in Resources */ = {isa = PBXBuildFile; fileRef = A33278471271A2A600976928 /* Main.hs */; };
 		A371E20312714154009FAA94 /* Converter.m in Sources */ = {isa = PBXBuildFile; fileRef = A371E20212714154009FAA94 /* Converter.m */; };
 /* End PBXBuildFile section */
 
@@ -40,10 +39,10 @@
 		A332750D1271486A00976928 /* ConverterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConverterController.h; sourceTree = "<group>"; };
 		A332750E1271486A00976928 /* ConverterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConverterController.m; sourceTree = "<group>"; };
 		A332771F127176D800976928 /* HSOBJC_dummy_C.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSOBJC_dummy_C.m; sourceTree = "<group>"; };
-		A3327751127178A600976928 /* Main.hs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Main.hs; sourceTree = "<group>"; };
 		A33277B7127180DD00976928 /* ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ffi.h; sourceTree = "<group>"; };
 		A33277D41271812F00976928 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A33277D61271812F00976928 /* CurrencyConverter-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyConverter-Info copy.plist"; sourceTree = "<group>"; };
+		A33278471271A2A600976928 /* Main.hs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Main.hs; sourceTree = "<group>"; };
 		A371E20112714154009FAA94 /* Converter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Converter.h; sourceTree = "<group>"; };
 		A371E20212714154009FAA94 /* Converter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Converter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,10 +122,9 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				A3327751127178A600976928 /* Main.hs */,
+				A332784A1271A2B200976928 /* haskell */,
+				A33278491271A2AA00976928 /* ffi */,
 				256AC3F00F4B6AF500CF3369 /* CurrencyConverter_Prefix.pch */,
-				A332771F127176D800976928 /* HSOBJC_dummy_C.m */,
-				A33277B7127180DD00976928 /* ffi.h */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -157,6 +155,23 @@
 			children = (
 			);
 			name = "Static Libraries";
+			sourceTree = "<group>";
+		};
+		A33278491271A2AA00976928 /* ffi */ = {
+			isa = PBXGroup;
+			children = (
+				A332771F127176D800976928 /* HSOBJC_dummy_C.m */,
+				A33277B7127180DD00976928 /* ffi.h */,
+			);
+			name = ffi;
+			sourceTree = "<group>";
+		};
+		A332784A1271A2B200976928 /* haskell */ = {
+			isa = PBXGroup;
+			children = (
+				A33278471271A2A600976928 /* Main.hs */,
+			);
+			name = haskell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +246,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
-				A3327752127178A600976928 /* Main.hs in Resources */,
+				A33278481271A2A600976928 /* Main.hs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +256,6 @@
 			files = (
 				A33277C61271812F00976928 /* InfoPlist.strings in Resources */,
 				A33277C71271812F00976928 /* MainMenu.xib in Resources */,
-				A33277C81271812F00976928 /* Main.hs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

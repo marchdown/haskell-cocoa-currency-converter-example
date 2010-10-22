@@ -281,7 +281,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>1</integer>
+									<integer>8</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -303,7 +303,7 @@
 							<real>409</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>386 180 1440 845 0 0 1920 1058 </string>
+						<string>244 188 1440 845 0 0 1920 1058 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -321,7 +321,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>A371E1F112713FD9009FAA94</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ConverterController.m</string>
+								<string>Main.hs</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -329,26 +329,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>A371E1F212713FD9009FAA94</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ConverterController.m</string>
+										<string>Main.hs</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>A33277F5127181AA00976928</string>
+										<string>A33278501271A2C000976928</string>
 										<key>history</key>
 										<array>
 											<string>A33275341271507600976928</string>
 											<string>A332758912715DF700976928</string>
-											<string>A33275D41271625000976928</string>
 											<string>A3327743127177B200976928</string>
 											<string>A332777A12717A3000976928</string>
-											<string>A33277B21271809000976928</string>
 											<string>A33277B31271809000976928</string>
 											<string>A33277BE127180FD00976928</string>
-											<string>A33277EA1271819D00976928</string>
-											<string>A33277EB1271819D00976928</string>
-											<string>A33277EC1271819D00976928</string>
-											<string>A33277ED1271819D00976928</string>
-											<string>A33277EE1271819D00976928</string>
+											<string>A332784D1271A2C000976928</string>
+											<string>A332784E1271A2C000976928</string>
+											<string>A332784F1271A2C000976928</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -362,18 +358,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1009, 525}}</string>
+								<string>{{0, 0}, {1009, 518}}</string>
 								<key>RubberWindowFrame</key>
-								<string>386 180 1440 845 0 0 1920 1058 </string>
+								<string>244 188 1440 845 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>525pt</string>
+							<string>518pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>274pt</string>
+							<string>281pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -387,7 +383,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1009, 247}}</string>
+										<string>{{10, 27}, {1009, 254}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -441,9 +437,9 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1009, 247}}</string>
+										<string>{{10, 27}, {1009, 254}}</string>
 										<key>RubberWindowFrame</key>
-										<string>386 180 1440 845 0 0 1920 1058 </string>
+										<string>244 188 1440 845 0 0 1920 1058 </string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -471,11 +467,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>A3327726127176E100976928</string>
+				<string>A33278511271A2C000976928</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>A3327727127176E100976928</string>
+				<string>A33278521271A2C000976928</string>
 				<string>A371E1F112713FD9009FAA94</string>
-				<string>A3327728127176E100976928</string>
+				<string>A33278531271A2C000976928</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -665,12 +661,10 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>A332776A1271793F00976928</string>
-		<string>A332776B1271793F00976928</string>
 		<string>/Volumes/User/jinjing/workspace/project/xcode/mac/CurrencyConverter/xcodeproj/CurrencyConverter.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>386 180 1440 845 0 0 1920 1058 </string>
+	<string>244 188 1440 845 0 0 1920 1058 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
