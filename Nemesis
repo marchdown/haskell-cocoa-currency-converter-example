@@ -1,0 +1,13 @@
+import Prelude ()
+import MPS.Env
+
+-- Nem
+
+nemesis = do
+  
+  clean
+    [ "**/*.hi"
+    , "**/*.o"
+    , "**/*_stub.c"
+    , "**/*_stub.h"
+    ]
