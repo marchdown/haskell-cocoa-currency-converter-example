@@ -1,8 +1,6 @@
 import Prelude ()
 import MPS.Env
 
--- Nem
-
 nemesis = do
   
   clean
