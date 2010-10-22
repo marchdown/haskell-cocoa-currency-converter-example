@@ -1,19 +1,7 @@
-import Prelude ()
-import MPS.Env
-
 nemesis = do
   
   clean
     [ "**/*.hi"
     , "**/*.o"
-    , "**/*.a"
-    , "**/*_stub.c"
-    , "**/*_stub.h"
     ]
 
-  desc "compile convert haskell lib"
-  task "c" - do
-    sh "cd haskell; ghc --make -static -shared convert.hs -fPIC -o convert.a"
-    
-  task "c2" - do
-    sh "cd haskell; ghc -c -O convert.hs "
