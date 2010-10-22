@@ -1,0 +1,18 @@
+# xcode noise
+build/*
+*.pbxuser
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+profile
+
+*.hi
+*.o
+bin
+.nemesis
+dist
+build
+*.a
