@@ -8,7 +8,8 @@ OK, this method works. Here's the workflow:
 * A normal xcode build is performed with a `main` symbol from `HSOBJC_dummy_C.m`.
 * `HSOBJC_dummy_C.m` also defines symbol place holders for exported Haskell functions
 * Run a custom python script that
-    * compile `Main.hs` with object code from XCode environment
+    * delete the object file generated from HSOBJC_dummy_C inside XCode environment
+    * compile `Main.hs` with the rest of object files from XCode environment
     * replace the XCode generated binary with `GHC`'s output
 
 Reference:
