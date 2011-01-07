@@ -3,7 +3,7 @@ a work in progress
 Current implementation (GHC output binary)
 ===========================================
 
-OK, this method works. The steps run by XCode after you hit `Build`:
+OK, this method works. The steps performed by XCode after you hit `Build`:
 
 * A normal xcode build is performed with a `main` symbol from `HSOBJC_dummy_C.m`.
 * `HSOBJC_dummy_C.m` also defines symbol place holders for exported Haskell functions
