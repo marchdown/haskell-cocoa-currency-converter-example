@@ -14,12 +14,12 @@ Reference:
 
 * <http://tscheff.blogspot.com/2010/02/currync-converter-using-haskell-with.html>
 
-Alternative method (shared library)
+Alternative method (static library)
 ===========================================
 
-I could not get shared library to work with XCode, ignored.
+I could not get GHC generated static library to work with XCode, ignored.
 
 License:
 ========
 
-BSD.
+BSD3
