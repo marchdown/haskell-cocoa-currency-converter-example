@@ -1,5 +1,3 @@
-a work in progress
-
 Current implementation (GHC output binary)
 ===========================================
 
@@ -16,9 +14,12 @@ Reference:
 
 * <http://tscheff.blogspot.com/2010/02/currync-converter-using-haskell-with.html>
 
-Alternative method (static shared library)
+Alternative method (shared library)
 ===========================================
 
 I could not get shared library to work with XCode, ignored.
 
-License: BSD.
+License:
+========
+
+BSD.
