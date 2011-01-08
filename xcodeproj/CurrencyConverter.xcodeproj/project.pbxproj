@@ -335,13 +335,7 @@
 				GCC_PREFIX_HEADER = CurrencyConverter_Prefix.pch;
 				INFOPLIST_FILE = "CurrencyConverter-Info copy.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\\\"$(SRCROOT)/../haskell\\\"",
-					"\\\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924\\\"",
-					"\\\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924/array-0.3.0.2\\\"",
-					"\\\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924/base-4.3.0.0\\\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = CurrencyConverter;
 			};
 			name = Debug;
@@ -380,13 +374,7 @@
 				GCC_PREFIX_HEADER = CurrencyConverter_Prefix.pch;
 				INFOPLIST_FILE = "CurrencyConverter-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../haskell\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924/array-0.3.0.2\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Frameworks/GHC.framework/Versions/700/usr/lib/ghc-7.0.0.20100924/base-4.3.0.0\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = CurrencyConverter;
 			};
 			name = Debug;
