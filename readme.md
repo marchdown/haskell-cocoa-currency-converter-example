@@ -12,6 +12,7 @@ OK, this method works. The steps performed by XCode after you hit `Build`:
 
 Reference:
 
+* All credits go to Tim Scheffler
 * <http://tscheff.blogspot.com/2010/02/currync-converter-using-haskell-with.html>
 
 Alternative method (static library)
